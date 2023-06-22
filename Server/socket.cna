@@ -1,0 +1,28 @@
+alias socky {
+
+    # Alias for Beacon ID and args
+    local('$bid $command');
+    
+    # Set the number of arguments
+    ($bid, $command) = @_;
+
+    # Determine the amount of arguments
+    if (size(@_) != 2)
+    {
+        berror($bid, "Error! Please enter a valid command");
+	return;
+    }
+
+    # Read in the BOF
+    $handle = openf(script_resource("server.o"));
+    $data = readb($handle, -1);
+    closef($handle);
+    
+    # Pack the arguments
+    # 'z' is a string
+    $args = bof_pack($bid, "z", $command);
+
+    # Run the BOF
+    # go = Entry point of the BOF
+    beacon_inline_execute($bid, $data, "go", $args);
+}
