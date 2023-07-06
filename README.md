@@ -28,8 +28,7 @@ socky <command>
 
 ## Demo  
 
-![winsocket_bof_demo](https://github.com/WKL-Sec/Winsocky/assets/97109724/b876351f-893d-490d-bcc4-82fa55896ff7)
-
+https://github.com/WKL-Sec/Winsocky/assets/37262788/3852dc35-30a8-4589-8945-8b93e4e2fa1e
 
 ## Author  
 Kleiton Kurti ([@kleiton0x00](https://github.com/kleiton0x00))
