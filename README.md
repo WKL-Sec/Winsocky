@@ -1,8 +1,9 @@
 # Winsocky
 Winsocket implementation for Cobalt Strike. Used to communicate with the victim using winsockets instead of the traditional ways.
 
-## Blog
-https://whiteknightlabs.com/2023/07/06/developing-winsock-communication-in-malware/
+## Blog Post
+
+[Developing Winsock Communication in Malware](https://whiteknightlabs.com/2023/07/06/developing-winsock-communication-in-malware/)
 
 ## Usage  
 
