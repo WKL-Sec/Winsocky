@@ -1,3 +1,5 @@
+![Animated Character Developing Winsock Communication](images/animated_character.png)
+
 # Winsocky
 Winsocket implementation for Cobalt Strike. Used to communicate with the victim using winsockets instead of the traditional ways.
 
